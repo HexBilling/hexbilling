@@ -2,7 +2,7 @@
   <br>
   <a href="https://boxbilling.com/"><img src="https://raw.githubusercontent.com/boxbilling/boxbilling/master/src/bb-themes/boxbilling/assets/images/box.png" alt="BoxBilling" width="125"></a>
   <br>
-  BoxBilling
+  BoxBilling - Modern
   <br>
 </h1>
 
@@ -18,11 +18,11 @@
 
 </div>
 
-**BoxBilling** is an open source, free billing and client management software which helps any kind of company whether they are startups or even individuals who wish to automate their billing process along with tools and features which will allow you start automating your business processes today!
+**BoxBilling** is an open source, free billing and client management software which helps any kind of company whether they are startups or even individuals who wish to automate their billing process along with tools and features which will allow you start automating your business processes today! This repository is a fork of the official BoxBilling code, and is intended to improve & modernize boxbilling.
 
-You can simplify your web hosting business by putting your billing cycle in control by integrating your favorite server management software to BoxBilling.
+You can simplify your web hosting business by putting your billing cycle in control by integrating your favorite server management software to BoxBilling. This is not JUST for web hosting business's, this software supports other product offerings such as licenses for your own customly developed software, and more.
 
-📥 BoxBilling is self-hosted — all you need is a [compatible](#requirements) web server, and a MySQL database. For further information, check the [requirements](#requirements) section.
+📥 This is self-hosted — all you need is a [compatible](#requirements) web server, and a MySQL database. For further information, check the [requirements](#requirements) section.
 
 ## Table of content
 
@@ -36,7 +36,7 @@ You can simplify your web hosting business by putting your billing cycle in cont
 - [Links](#links)
 
 ## Requirements
-Although BoxBilling *may* work in lower or smaller conditions, we **highly recommend** you to ensure that your environment has the following software installed:
+Although BoxBilling - Modern *may* work in lower or smaller conditions, we **highly recommend** you to ensure that your environment has the following software installed:
 - PHP 7.2, or higher. PHP 8 is not supported at the moment.
 - MySQL 8, or higher.
 - Following PHP extensions:
