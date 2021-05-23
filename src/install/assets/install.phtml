@@ -2,17 +2,17 @@
 
 {% block left %}
         <div class="widget nomargin step step-1">
-            <div class="head"><h5 class="iAlert">BoxBilling installation</h5></div>
+            <div class="head"><h5 class="iAlert">HexBilling installation</h5></div>
             <div class="body">
-                <p>This setup will guide you through installation process of BoxBilling.</p>
-                <p>Check if your system meets minimum requirements to install and run BoxBilling.</p>
+			<p>This setup will guide you through installation process of HexBilling.</p>
+                <p>Check if your system meets minimum requirements to install and run HexBilling.</p>
             </div>
         </div>
 
         <div class="widget nomargin step step-2">
             <div class="head"><h5 class="iAlert">Database configuration</h5></div>
             <div class="body">
-                <p>BoxBilling stores data in a SQL database. You should already have an existing database before this step. If you do not have database prepared, you should do that now.</p>
+                <p>HexBilling stores data in a SQL database. You should already have an existing database before this step. If you do not have database prepared, you should do that now.</p>
                 <p>Installer will create all required tables in your database after correct connection details are provided.</p>
                 <h4 class="pt10">How to create a database?</h4>
                 <p>Depending on your hosting provider database can be created in different ways.</p>
@@ -23,24 +23,23 @@
         <div class="widget nomargin step step-3">
             <div class="head"><h5 class="iAlert">Administrator account</h5></div>
             <div class="body">
-                <p>This is the main user account to control all aspects of BoxBilling.</p>
+                <p>This is the main user account to control all aspects of HexBilling.</p>
                 <p>Email will be used to login to admin area.</p>
-                <p>Make sure password is strong.</p>
+                <p>Make sure the password you create/choose is very strong.</p>
             </div>
         </div>
 
         <div class="widget nomargin step step-4">
             <div class="head"><h5 class="iAlert">Well done!</h5></div>
             <div class="body aligncenter">
-                <p>Thank you for choosing BoxBilling</p>
+                <p>Thank you for choosing HexBilling</p>
                 <a href="{{ live_site }}" title="" class="btnIconLeft mr10 mt10" target="_blank"><img src="./assets/images/user.png" alt="" class="icon"><span>Client area</span></a>
                 <a href="{{ admin_site }}" title="" class="btnIconLeft mr10 mt10" target="_blank"><img src="./assets/images/adminUser.png" alt="" class="icon"><span>Admin area</span></a>
             </div>
         </div>
 
         <div class="widget step step-4">
-            <div class="head"><h5 class="iAlert">Find us on Facebook</h5></div>
-            <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fboxbilling&amp;width=209&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;border_color=%23ffffff&amp;stream=false&amp;header=false" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:209px; height:258px;" allowTransparency="true"></iframe>
+            
         </div>
 
 {% endblock %}
@@ -59,7 +58,7 @@
                                         instructions how to enable JavaScript in your web browser</a>. </p>
                                 <p>
                                     If you can not enable JavaScript for some reason you can follow these steps in
-                                    order to setup BoxBilling: <br/>
+                                    order to setup HexBilling: <br/>
                                     * Rename "bb-config-sample.php" file to "bb-config.php", fill in the values and change this file permissions to read only (CHMOD 644).<br/>
                                     * Import /install/sql/structure.sql to your database<br/>
                                     * Import /install/sql/content.sql to your database<br/>
