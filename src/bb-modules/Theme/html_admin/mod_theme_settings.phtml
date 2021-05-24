@@ -7,14 +7,14 @@
 <ul>
     <li class="firstB"><a href="{{ '/'|alink }}">{% trans 'Home' %}</a></li>
     <li><a href="{{ 'system'|alink }}">{% trans 'Settings' %}</a></li>
-    <li class="lastB">{% trans 'Themes' %}</li>
+    <li class="lastB">{% trans 'Themes/Templates' %}</li>
 </ul>
 {% endblock %}
 
 
 {% block content %}
 <div class="widget">
-    <div class="head"><h5 class="iPaintBrush">{% trans 'Client area themes' %}</h5></div>
+    <div class="head"><h5 class="iPaintBrush">{% trans 'Client Area themes' %}</h5></div>
 
     <table class="tableStatic wide">
         <thead>
@@ -33,7 +33,7 @@
             <td class="actions">
                 <a class="btnIconLeft mr10" href="{{ 'theme'|alink }}/{{theme.code}}"><img src="images/icons/dark/cog.png" alt="" class="icon"><span>{% trans 'Settings' %}</span></a>
                 {% if guest.extension_theme(true).code != theme.code %}
-                <a class="btnIconLeft mr10 api-link" data-api-redirect="{{ 'extension/settings/theme'|alink }}" href="{{ 'api/admin/theme/select'|link({'code' : theme.code}) }}"><img src="images/icons/dark/star.png" alt="" class="icon"><span>{% trans 'Set as default' %}</span></a>
+                <a class="btnIconLeft mr10 api-link" data-api-redirect="{{ 'extension/settings/theme'|alink }}" href="{{ 'api/admin/theme/select'|link({'code' : theme.code}) }}"><img src="images/icons/dark/star.png" alt="" class="icon"><span>{% trans 'Make Default' %}</span></a>
                 {% endif %}
             </td>
         </tr>
@@ -53,7 +53,7 @@
 </div>
 
 <div class="widget">
-    <div class="head"><h5 class="iPaintBrush">{% trans 'Admin area themes' %}</h5></div>
+    <div class="head"><h5 class="iPaintBrush">{% trans 'Admin Area/UI themes' %}</h5></div>
 
     <table class="tableStatic wide">
         <thead>
@@ -73,7 +73,7 @@
                 <a class="btnIconLeft mr10" href="{{ 'theme'|alink }}/{{theme.code}}"><img src="images/icons/dark/cog.png" alt="" class="icon"><span>{% trans 'Settings' %}</span></a>
                 {% if guest.extension_theme(false).code != theme.code %}
                 <a class="btnIconLeft mr10 api-link" data-api-redirect="{{ 'extension/settings/theme'|alink }}" href="{{ 'api/admin/theme/select'|link({'code' : theme.code}) }}">
-                    <img src="images/icons/dark/star.png" alt="" class="icon"><span>{% trans 'Set as default' %}</span>
+                    <img src="images/icons/dark/star.png" alt="" class="icon"><span>{% trans 'Make default' %}</span>
                 </a>
                 {% endif %}
             </td>
