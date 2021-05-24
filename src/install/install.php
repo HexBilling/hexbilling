@@ -65,7 +65,7 @@ final class Box_Installer
                 $pass = $_POST['db_pass'];
                 $name = $_POST['db_name'];
                 if (!$this->canConnectToDatabase($host, $name, $user, $pass)) {
-                    print 'Could not connect to database. Please check database details. You might need to create database first.';
+                    print 'Could not connect to MySQL database. Ensure that your database details are correct, such as username, DB Name, password, host.';
                 } else {
                     $this->session->set('db_host', $host);
                     $this->session->set('db_name', $name);
@@ -208,7 +208,7 @@ final class Box_Installer
     {
         $path = BB_PATH_LICENSE;
         if (!file_exists($path)) {
-            return 'BoxBilling is licensed under the Apache License, Version 2.0.'.PHP_EOL.'Please visit https://github.com/boxbilling/boxbilling/blob/master/LICENSE for full license text.';
+            return 'HexBilling is licensed under the Apache License, Version 2.0.'.PHP_EOL.'Please visit https://github.com/boxbilling/boxbilling/blob/master/LICENSE for full license text.';
         }
         return file_get_contents($path);
     }
