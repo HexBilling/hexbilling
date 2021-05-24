@@ -2,7 +2,7 @@
     "id":           "branding",
 	"type":         "mod",
     "name":         "Branding",
-    "description":  "Branding module of BoxBilling. This extension includes the footer reference to BoxBilling's official website.",
+    "description":  "Branding module of BoxBilling. This extension includes the footer reference to BoxBilling's official website. Paid Plans have been discontinued.",
     "homepage_url": "http://github.com/boxbilling/",
     "author":       "BoxBilling",
     "author_url":   "http://extensions.boxbilling.com/",
