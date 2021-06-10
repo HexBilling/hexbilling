@@ -6,8 +6,9 @@
  * to "bb-config.php" and fill in the values.
  * Import /install/sql/structure.sql to your database
  * Import /install/sql/content.sql to your database
- * Open browser http://www.yourdomain.com/index.php?_url=/bb-admin to create new admin account.
+ * Open browser http://yourdomain.com/index.php?_url=/bb-admin to create new admin account.
  * Remove /install directory
+ * Finished
  */
 
 return array(
@@ -71,7 +72,7 @@ return array(
         'type'   =>'mysql',
 
         /**
-         * Database hostname. Don't change this if in doubt.
+         * Database hostname. Don't change this if in doubt. 127.0.0.1 = localhost. If your DB is hosted elsewhere, change DB_HOST value to that hostname or IP Address.
          */
         'host'   => getenv('DB_HOST') ?: '127.0.0.1',
 
