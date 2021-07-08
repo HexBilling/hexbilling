@@ -5,6 +5,7 @@
   HexBilling (based on BoxBilling)
   <br>
 </h1>
+<p>HexBilling may be referred to BoxBilling often in this readme and the app.</p>
 
 
 
